@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📚 Grav Dokumentation
+    url: https://learn.getgrav.org
+    about: Offizielle Grav CMS Dokumentation
+  - name: 💬 Grav Forum
+    url: https://getgrav.org/forum
+    about: Stelle allgemeine Fragen zur Grav-Community
+  - name: 💭 Grav Discord Chat
+    url: https://chat.getgrav.org
+    about: Trete dem Grav Discord-Chat bei für Echtzeit-Diskussionen
+  - name: 🐛 Learn2 Theme Issues
+    url: https://github.com/getgrav/grav-theme-learn2/issues
+    about: Issues für das Original Learn2 Theme

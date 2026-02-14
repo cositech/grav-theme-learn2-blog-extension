@@ -1,0 +1,70 @@
+title: Blog Item
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+          title: PLUGIN_ADMIN.CONTENT
+
+          fields:
+            header.author:
+              type: text
+              label: Author
+              help: Enter the author name for this blog post
+
+            header.featured_image:
+              type: text
+              label: Featured Image
+              help: Enter the filename of the featured image (must be uploaded to this page)
+              placeholder: e.g. my-image.jpg
+
+        options:
+          type: tab
+          title: PLUGIN_ADMIN.OPTIONS
+
+          fields:
+            publishing:
+              type: section
+              title: PLUGIN_ADMIN.PUBLISHING
+              underline: true
+
+            header.published:
+              type: toggle
+              label: Published
+              highlight: 1
+              default: 1
+              options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+              validate:
+                type: bool
+
+            header.date:
+              type: datetime
+              label: Published Date
+              toggleable: true
+              help: The date the blog post was published
+
+            taxonomy:
+              type: taxonomy
+              label: PLUGIN_ADMIN.TAXONOMY
+              multiple: true
+              validate:
+                type: array
+
+              fields:
+                header.taxonomy.category:
+                  type: array
+                  label: Categories
+
+                header.taxonomy.tag:
+                  type: array
+                  label: Tags
