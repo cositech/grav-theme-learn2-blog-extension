@@ -175,6 +175,9 @@ visible: true
 
 **Hinweis:** Dies ist seit Version 1.1.0 das Standardverhalten.
 
+**Für bestehende Installationen:**
+Wenn du bereits Blog-Posts hast, die du manuell als "invisible" gesetzt hast, kannst du diese Einstellung entfernen. Neue Posts werden automatisch verborgen.
+
 ### Wie erstelle ich eine Serie von Posts?
 
 Nutze Kategorien:
