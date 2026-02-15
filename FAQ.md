@@ -156,6 +156,28 @@ published: false
 
 Oder nutze den Published-Toggle im Admin-Panel.
 
+### Warum erscheinen meine Blog-Posts nicht im Menü?
+
+**Das ist gewollt!** Blog-Posts sind standardmäßig **nicht im Menü sichtbar** (`visible: false`), um die Navigation sauber zu halten. Sie sind aber über die Blog-Übersichtsseite erreichbar.
+
+**Falls du einen Post im Menü anzeigen möchtest:**
+
+Via Admin-Panel:
+1. Öffne den Post
+2. Gehe zu "Options"-Tab
+3. Aktiviere "Visible in Menu"
+
+Via Datei in Frontmatter:
+
+```yaml
+visible: true
+```
+
+**Hinweis:** Dies ist seit Version 1.1.0 das Standardverhalten.
+
+**Für bestehende Installationen:**
+Wenn du bereits Blog-Posts hast, die du manuell als "invisible" gesetzt hast, kannst du diese Einstellung entfernen. Neue Posts werden automatisch verborgen.
+
 ### Wie erstelle ich eine Serie von Posts?
 
 Nutze Kategorien:

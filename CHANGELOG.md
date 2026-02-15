@@ -7,6 +7,15 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
 
 ## [Unreleased]
 
+### Added
+- Blog-Posts sind jetzt standardmäßig nicht im Menü sichtbar (`visible: false`)
+- "Visible in Menu" Toggle im Admin-Panel für Blog-Posts
+- Dokumentation zur automatischen Menü-Ausblendung
+
+### Changed
+- Blog-Posts müssen nicht mehr manuell als "invisible" gesetzt werden
+- Vereinfachte Erstellung neuer Blog-Posts
+
 ### Geplant
 - Featured Posts Unterstützung
 - Autor-Profile mit Avataren
