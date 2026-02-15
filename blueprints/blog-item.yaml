@@ -36,6 +36,18 @@ form:
               title: PLUGIN_ADMIN.PUBLISHING
               underline: true
 
+            visible:
+              type: toggle
+              label: Visible in Menu
+              highlight: 0
+              default: 0
+              options:
+                1: PLUGIN_ADMIN.YES
+                0: PLUGIN_ADMIN.NO
+              validate:
+                type: bool
+              help: Controls whether this post appears in the menu navigation
+
             header.published:
               type: toggle
               label: Published

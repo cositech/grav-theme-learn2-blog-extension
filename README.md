@@ -172,8 +172,11 @@ Dies ist die Zusammenfassung für die Blog-Übersicht.
 | `date` | Date | Veröffentlichungsdatum |
 | `featured_image` | String | Dateiname des Featured Images |
 | `published` | Boolean | Veröffentlichungsstatus |
+| `visible` | Boolean | Sichtbarkeit im Menü (Standard: `false`) |
 | `taxonomy.category` | Array | Kategorien |
 | `taxonomy.tag` | Array | Tags |
+
+**Hinweis:** Blog-Posts sind standardmäßig **nicht im Menü sichtbar** (`visible: false`), um die Navigation übersichtlich zu halten. Sie sind über die Blog-Übersichtsseite zugänglich. Um einen Post im Menü anzuzeigen, setze `visible: true`.
 
 ### Featured Images
 
